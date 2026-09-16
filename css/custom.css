@@ -52,6 +52,14 @@ html.sticky-header-active .logo-text {
 	text-transform: none;
 }
 
+.project-entry .icon-featured {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(239, 191, 64);
+	margin: 0;
+}
+
 .advexp-settings-local {
 	background-image: url("../img/Advexp.Settings.Local.png");
 	display: inline-block;
