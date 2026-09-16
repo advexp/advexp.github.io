@@ -1,27 +1,215 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="boxed">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Advexp</title>
-  <meta name="description" content="Advexp software projects.">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <style>
-    body { margin: 0; font-family: "Open Sans", "Segoe UI", Helvetica, Arial, sans-serif; color: #333; }
-    main { max-width: 40rem; margin: 0 auto; padding: 4rem 1.25rem; }
-    h1 { font-size: 2.5rem; margin: 0 0 0.5rem; }
-    ul { line-height: 1.6; padding-left: 1.25rem; }
-  </style>
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Advexp - software projects and cross-platform components for .NET and Python</title>
+
+    <meta name="keywords" content="advexp, software, projects, components, settings, configurations, Python, .NET" />
+    <meta name="description" content="Advexp - software projects and cross-platform components for .NET and Python. Home of Advexp.Settings - cross-platform app settings and configurations for Python and .NET projects.">
+    <meta name="author" content="Alexey Ivakin">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+
+    <!-- Web Fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/font-awesome/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="vendor/animate/animate.min.css">
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.min.css">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/theme-elements.css">
+    <link rel="stylesheet" href="css/theme-blog.css">
+    <link rel="stylesheet" href="css/theme-shop.css">
+
+    <!-- Skin CSS -->
+    <link rel="stylesheet" href="css/skins/default.css">
+
+    <!-- Theme Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Head Libs -->
+    <script src="vendor/modernizr/modernizr.min.js"></script>
+
 </head>
 <body>
-  <main>
-    <h1>Advexp</h1>
-    <p>Software projects:</p>
-    <ul>
-      <li><a href="https://advexp.github.io/advexp.settings/"><strong>Advexp.Settings</strong></a> —
-        cross-platform app settings and configuration library
-        (.NET and Python editions).</li>
-    </ul>
-  </main>
+    <div class="body">
+        <header id="header" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyStartAt': 10, 'stickySetTop': '-10px'}">
+            <div class="header-body">
+                <div class="header-container container">
+                    <div class="header-row">
+                        <div class="header-column">
+                            <div class="header-logo">
+                                <a href="/">
+                                    <span class="logo-text">advexp<strong>.net</strong></span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="header-column justify-content-end">
+                            <div class="header-row">
+                                <div class="header-nav">
+                                    <div class="header-nav-main header-nav-main-effect-1 header-nav-main-sub-effect-1">
+                                        <nav class="collapse">
+                                            <ul class="nav nav-pills" id="mainNav">
+                                                <li class="active"><a href="/">Home</a></li>
+                                                <li><a href="/advexp.settings/">Advexp.Settings</a></li>
+                                                <li><a href="https://github.com/advexp" target="_blank">GitHub</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                    <button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
+                                        <i class="fas fa-bars"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div role="main" class="main">
+
+            <div class="container">
+
+                <div class="row text-center mt-4">
+                    <div class="col">
+                        <h1 class="mb-2">Advexp</h1>
+                        <p class="lead mb-0">Software projects and cross-platform components for .NET and Python.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container">
+
+                <hr />
+
+                <div>
+                    <h2>Our <strong>Projects</strong></h2>
+                </div>
+                <div class="featured-boxes">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="featured-box featured-box-secondary featured-box-effect-1 mt-0">
+                                <div class="box-content">
+                                    <a href="/advexp.settings/">
+                                        <i class="icon-featured">
+                                            <span class="advexp-settings-local"></span>
+                                        </i>
+                                        <h4>Advexp.Settings</h4>
+                                    </a>
+                                    <p>Cross-platform app settings and configurations for Python and .NET projects.</p>
+                                    <p>
+                                        Available as the <a href="https://www.nuget.org/packages/Advexp.Settings.Local" target="_blank">Advexp.Settings.Local</a> package on NuGet for .NET
+                                        and as <a href="https://pypi.org/project/advexp-settings/" target="_blank">advexp-settings</a> on PyPI for Python.
+                                        Source code and issues are hosted on <a href="https://github.com/advexp" target="_blank">GitHub</a>.
+                                    </p>
+                                    <div>
+                                        <a class="learn-more" href="/advexp.settings/">Learn More <i class="fas fa-angle-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr />
+
+                <div>
+                    <h2>About <strong>Advexp</strong></h2>
+                    <p>
+                        Advexp is an independent software project by Alexey Ivakin, focused on cross-platform components
+                        for .NET and Python. Project sources, documentation and issue trackers are hosted in public
+                        repositories on <a href="https://github.com/advexp" target="_blank">GitHub</a>.
+                    </p>
+                    <p>
+                        For questions, suggestions and support, contact <a href="mailto:components@advexp.net">components@advexp.net</a>.
+                    </p>
+                </div>
+
+                <div class="row"><br /></div>
+
+            </div>
+
+        </div>
+
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-ribbon">
+                        <span>Get in Touch</span>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="contact-details">
+                            <ul class="contact">
+                                <li><p><i class="far fa-envelope"></i> <strong>Email:</strong> <a href="mailto:components@advexp.net">components@advexp.net</a></p></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Vendor -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery.appear/jquery.appear.min.js"></script>
+    <script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="vendor/jquery-cookie/jquery-cookie.min.js"></script>
+    <script src="vendor/popper/umd/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/common/common.min.js"></script>
+
+    <!-- Theme Base, Components and Settings -->
+    <script src="js/theme.js"></script>
+
+    <!-- Theme Custom -->
+    <script src="js/custom.js"></script>
+
+    <!-- Theme Initialization Files -->
+    <script src="js/theme.init.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64449427-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-64449427-2');
+    </script>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+       (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+       m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+       (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+       ym(52316341, "init", {
+            id:52316341,
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+       });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/52316341" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
 </body>
 </html>
