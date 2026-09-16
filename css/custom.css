@@ -2,14 +2,11 @@
 .main h1 {
 	font-size: 30px;
 }
+
 #header .header-nav-main nav > ul > li > a {
 	font-weight: 600;
 	text-transform: none;
 	font-size: 15px;
-	text-decoration: none;
-}
-
-.featured-box a {
 	text-decoration: none;
 }
 
@@ -45,7 +42,10 @@ html.sticky-header-active .logo-text {
 	font-size: 24px;
 }
 
-/* local product */
+/* project entry */
+.project-entry a {
+	text-decoration: none;
+}
 
 .advexp-settings-local {
 	background-image: url("../img/Advexp.Settings.Local.png");
@@ -53,62 +53,4 @@ html.sticky-header-active .logo-text {
 	width: 76px;
 	height: 76px;
 	background-position: center;
-	margin-top: 17px;
-}
-
-html .featured-box-secondary .icon-featured {
-	background-color: rgb(239, 191, 64);
-}
-
-html .featured-box-secondary .box-content {
-	border-top-color: rgb(239, 191, 64);
-}
-
-html .featured-box-secondary h4 {
-	color: inherit;
-}
-
-/* cloud product */
-.advexp-settings-cloud {
-	background-image: url("../img/Advexp.Settings.Cloud.png");
-	display: inline-block;
-	width: 76px;
-	height: 76px;
-	background-position: center;
-	margin-top: 17px;
-}
-
-html .featured-box-tertiary .icon-featured {
-	background-color: rgb(0, 136, 205);
-}
-
-html .featured-box-tertiary .box-content {
-	border-top-color: rgb(0, 136, 205);
-}
-
-html .featured-box-tertiary h4 {
-	color: rgb(0, 136, 205);
-}
-
-/*pro product*/
-
-.advexp-settings-pro {
-	background-image: url("../img/Advexp.Settings.Pro.png");
-	display: inline-block;
-	width: 76px;
-	height: 76px;
-	background-position: center;
-	margin-top: 17px;
-}
-
-html .featured-box-quaternary .icon-featured {
-	background-color: rgb(242, 119, 68);
-}
-
-html .featured-box-quaternary .box-content {
-	border-top-color: rgb(242, 119, 68);
-}
-
-html .featured-box-quaternary h4 {
-	color: rgb(242, 119, 68);
 }
