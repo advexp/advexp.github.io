@@ -47,6 +47,11 @@ html.sticky-header-active .logo-text {
 	text-decoration: none;
 }
 
+.project-entry h3,
+.project-entry h3 a {
+	text-transform: none;
+}
+
 .advexp-settings-local {
 	background-image: url("../img/Advexp.Settings.Local.png");
 	display: inline-block;
