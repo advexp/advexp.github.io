@@ -66,7 +66,7 @@ html.sticky-header-active .logo-text {
 	top: -7px;
 	left: -7px;
 	padding: 7px;
-	box-shadow: 0 0 0 3px rgb(239, 191, 64);
+	box-shadow: 0 0 0 3px #FFF;
 	transition: transform 0.2s, opacity 0.2s;
 	transform: scale(1);
 	opacity: 0;
