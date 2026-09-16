@@ -1,4 +1,7 @@
 /* Add here all your CSS customizations */
+.main h1 {
+	font-size: 30px;
+}
 #header .header-nav-main nav > ul > li > a {
 	font-weight: 600;
 	text-transform: none;
