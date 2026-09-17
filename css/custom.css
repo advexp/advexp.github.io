@@ -65,18 +65,12 @@ html.sticky-header-active .logo-text {
 	position: relative;
 }
 
-/* hover ring (like featured-box-effect-1 on the product page) */
+/* always-on nested ring in the project icon circle (not hover-dependent) */
 .project-entry .icon-featured:after {
 	top: -7px;
 	left: -7px;
 	padding: 7px;
 	box-shadow: 0 0 0 3px #FFF;
-	transition: transform 0.2s, opacity 0.2s;
-	transform: scale(1);
-	opacity: 0;
-}
-
-.project-entry a:hover .icon-featured:after {
 	transform: scale(0.8);
 	opacity: 1;
 }
