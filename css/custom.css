@@ -3,6 +3,10 @@
 	font-size: 30px;
 }
 
+.main h2 {
+	font-size: 26px;
+}
+
 #header .header-nav-main nav > ul > li > a {
 	font-weight: 600;
 	text-transform: none;
@@ -54,6 +58,7 @@ html.sticky-header-active .logo-text {
 .project-entry h3,
 .project-entry h3 a {
 	text-transform: none;
+	font-size: 24px;
 }
 
 .project-entry .icon-featured {
